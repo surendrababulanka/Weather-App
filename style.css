@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    width: 400px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+}
+.container p{
+    font-size: 25px;
+    text-align: center;
+}
+.input{
+    text-align: center;
+    margin-top: 20px;
+}
+.input input{
+    font-size: 18px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 8px;
+    outline: none;
+}
+input:focus{
+    border: 2px solid blue;
+}
+#btn{
+    padding:0px 10px;
+    border: none;
+    background-color: blue;
+    color: #fff;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    gap: 10px;
+    font-size: 16px;
+}
+.info i{
+    font-size: 50px;
+    margin-top: 20px;
+}
+.temp span{
+    font-size: 30px;
+    font-weight: 700;
+}
+#c{
+    font-size: 14px;
+}
+#weather-desc{
+    font-size: 20px;
+    font-weight: 700;
+}
+.location{
+    font-size: 20px;
+}
